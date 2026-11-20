@@ -1,0 +1,118 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #172136;
+}
+#principal{
+    height: 500px;
+    margin: auto;
+}
+
+#header-top{
+    margin: auto;
+    background-color: black;
+    border: solid 1px transparent;
+    height: 50px;
+    position: relative;
+}
+
+#header-top nav li{
+    margin: auto;
+    font-size: 13px;
+    display: inline-block;
+    padding: 0 0 0 30px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+#header-top nav ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    width: 30%;
+    line-height: 50px;
+}
+#header-top a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .3s linear;
+    padding: 8px 15px;
+}
+
+
+#header-top a:hover{
+    color: #c8aa6c;
+    background-color: rgba(156, 153, 153, 0.733);
+    border-radius: 10px;
+}
+
+#p1{
+    margin: 100px auto;
+    width: 26%;
+    text-align: center;
+}
+#p1 p{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 20px ;
+}
+
+#logo{
+    width: 300px;
+    display: block;
+    margin: 40px auto;
+}
+.links{
+    margin: auto;
+    height: 600px;
+}
+.links ul{
+    height: 600px;
+    text-align: center;
+    margin: auto;
+    width: 150px;
+    padding: 0 5px 0 0;
+}
+
+.links li{
+    font-size: 17px;
+    letter-spacing: 1px;
+    list-style: none;
+    padding: 20px 0;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color .3s linear;
+    padding: 8px 15px;
+}
+.esme{
+    margin-right: 5px ;
+}
+.links a:hover{
+    color: #c8aa6c;
+    background-color: rgba(156, 153, 153, 0.733);
+    border-radius: 10px;
+}
+
+
+footer{
+    font-size: 13px;
+    background-color: #292929;
+    text-align: center;
+    margin: 20px 0 0 0;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    text-transform: uppercase;
+}
